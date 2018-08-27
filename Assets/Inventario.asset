@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47886670c21eba14b87fede2c515b21d, type: 3}
+  m_Name: Inventario
+  m_EditorClassIdentifier: 
+  Base_de_Datos:
+  - Nombre: Pocion_Vida
+    ID: 0
+    precio: 50
+    cantidad: 3
+    imagen: {fileID: 21300000, guid: 000aec3c79e4aad4d9a4d2d914d39c05, type: 3}
+    tipo: 0
+    acumulable: 1
+  - Nombre: Pocion_Power
+    ID: 1
+    precio: 100
+    cantidad: 2
+    imagen: {fileID: 21300000, guid: 82e0e37737ed06042afcf5bf591ce5f6, type: 3}
+    tipo: 0
+    acumulable: 1
+  - Nombre: Acido
+    ID: 2
+    precio: 65
+    cantidad: 4
+    imagen: {fileID: 21300000, guid: e8a9fdbd271018e49a650505fb531fb2, type: 3}
+    tipo: 1
+    acumulable: 1
+  - Nombre: Tronco
+    ID: 3
+    precio: 300
+    cantidad: 1
+    imagen: {fileID: 21300000, guid: 76b12d14f023f304ea671dd615f1cfec, type: 3}
+    tipo: 1
+    acumulable: 0
+  - Nombre: Bomba
+    ID: 4
+    precio: 100
+    cantidad: 3
+    imagen: {fileID: 21300000, guid: ac1187b3485179f488cc5187bc442650, type: 3}
+    tipo: 1
+    acumulable: 1
+  - Nombre: Disparo
+    ID: 5
+    precio: 150
+    cantidad: 5
+    imagen: {fileID: 21300000, guid: c9ece33ffbcdd054eb7cbfe2f6feb2ce, type: 3}
+    tipo: 1
+    acumulable: 1
+  - Nombre: Torreta
+    ID: 6
+    precio: 500
+    cantidad: 1
+    imagen: {fileID: 21300000, guid: 5b66b2da51d2d4c4797092bc1ee33d14, type: 3}
+    tipo: 1
+    acumulable: 0
